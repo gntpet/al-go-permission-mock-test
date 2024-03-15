@@ -7,6 +7,7 @@ codeunit 50000 "HelloWorld Test"
     procedure TestHelloWorldMessage()
     var
         CustList: TestPage "Customer List";
+        PermissionMock: Codeunit "Permissions Mock";
     begin
         CustList.OpenView();
         CustList.Close();
