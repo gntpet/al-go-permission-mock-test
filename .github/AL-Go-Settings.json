@@ -1,4 +1,13 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "doNotRunBcptTests": true,
+  "companyName": "TNM Automated Test",
+  "skipUpgrade": true,
+  "EnableTaskScheduler": true,
+  "doNotRunTests": true,
+  "useCompilerFolder": true,
+  "doNotPublishApps": true,
+  "alwaysBuildAllProjects": true,
+  "PullRequestTrigger": "pull_request"
 }
